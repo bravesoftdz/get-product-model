@@ -1,9 +1,6 @@
 {
   "require": {
-    "composer/installers": "~1.0",
-    "sentry/sentry": "^1.7",
-    "dykyi-roman/math-parser": "dev-master",
-    "onelogin/php-saml": "^2.10"
+
   },
   "autoload": {
     "psr-4": {"Dykyi\\": "public/"}
