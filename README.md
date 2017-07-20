@@ -1,4 +1,4 @@
-# Product model]
+# Product model
 
 We have a data about our products stored in both ElasticSearch and MySQL database. The data is same in both and we mainly query the ElasticSearch. However, from time to time we need to fetch the data directly from MySQL while we do some fancy experiments in ElasticSearch. We would like to access the data about a concrete product from our frontend so we can display it to customer.
 As we do have quite some traffic we also need some kind of a caching to be implemented. A simple filesystem cache is sufficient for now but we need to be able to switch it for something more advanced in the future just by a modification of a config file.
